@@ -20,7 +20,7 @@ site.js               Lists, filters, search, scroll reveal, progress line
 Every piece is an article. Its flagship is one of three mediums: `written`, `audio`, `video`.
 
 1. Add an entry to `posts.json`: `date`, `medium`, `minutes`, `title`, `deck`, `url`, `text` (the body or transcript — it drives search).
-2. Copy `the-first-house/` to `<slug>/`, edit, keep `data-root="../"` and the `../` paths.
+2. Copy `what-else-could-be-true/` to `<slug>/`, edit, keep `data-root="../"` and the `../` paths.
 3. For audio or video, drop the file in `media/` and uncomment the matching `<figure class="media">` block in the template. The body below it is the transcript or notes.
 4. The share line (LinkedIn · Facebook · Email) at the end fills its URLs automatically.
 5. Update the `<title>`, description, canonical, Open Graph tags and the JSON-LD `Article` block in the new page's `<head>`, and add the URL to `sitemap.xml`.
