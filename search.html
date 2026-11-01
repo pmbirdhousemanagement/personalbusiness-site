@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search — Personal Business</title>
+<meta name="description" content="Search every article on Personal Business.">
+<meta name="author" content="Eric Beckman">
+<link rel="canonical" href="https://personalbusiness.net/search.html">
+<meta property="og:site_name" content="Personal Business">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Search — Personal Business">
+<meta property="og:description" content="Search every article on Personal Business.">
+<meta property="og:url" content="https://personalbusiness.net/search.html">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="column">
+    <a class="masthead" href="./">Personal Business</a>
+    <nav class="site-nav">
+      <a href="./">Latest</a>
+      <a href="conversations.html">Conversations</a>
+      <a href="about.html">About</a>
+      <a href="search.html" aria-current="page">Search</a>
+    </nav>
+  </div>
+</header>
+
+<main class="column">
+  <label class="label" for="q">Search</label>
+  <input class="search-box" id="q" type="search" placeholder="Type a word or two" autocomplete="off" spellcheck="false">
+  <p class="result-count" aria-live="polite"></p>
+  <ul class="list" data-results></ul>
+</main>
+
+<footer class="site-footer">
+  <div class="column">
+    <span>personalbusiness.net</span>
+    <nav class="footer-links"><a href="https://www.linkedin.com/in/eric-james-beckman/" rel="me">LinkedIn</a><a href="https://birdhousepropertymanagement.com">Birdhouse</a></nav>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>
